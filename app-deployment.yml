@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot-crud-k8s
-          image: ajeet9415/sb-db-app:02
+          image: ajeet9415/jenkins-springboot-db-app:latest
           ports:
             - containerPort: 8080
           env:   # Setting Enviornmental Variables
